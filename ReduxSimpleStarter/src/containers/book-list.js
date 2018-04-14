@@ -23,7 +23,7 @@ function mapStateToProps(state) {
     // Whatever is returned will show up as props
     // inside of BookList
     return {
-        book: state.books
+        books: state.books
     };
 }
 
